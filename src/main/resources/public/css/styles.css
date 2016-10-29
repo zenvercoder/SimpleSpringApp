@@ -14,6 +14,30 @@ body>footer {
     margin: 10px 0;
     text-align: center;
 }
+body>aside {
+    float: right;
+    width: 200px;
+    background: #CCC;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+body>aside h2 {
+    margin: 5px 0px 15px 0px;
+}
+
+body>aside a {
+    display: block;
+    margin: 5px 0px;
+    text-decoration: none;
+}
+
+body>main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 #logged-in-info {
     float: right;
     margin-top: 18px;
